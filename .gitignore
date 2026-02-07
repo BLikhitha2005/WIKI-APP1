@@ -1,0 +1,22 @@
+# Create .gitignore
+@"
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+env/
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+"@ | Out-File -Encoding UTF8 .gitignore

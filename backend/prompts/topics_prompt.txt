@@ -1,0 +1,10 @@
+Given the text below, extract the top topics or keywords as a comma-separated list. Return only the list, no explanation.\n\n{text}
+Suggest 5 to 8 related Wikipedia topics based on the article.
+
+Return ONLY valid JSON:
+{
+  "related_topics": []
+}
+
+TITLE: {title}
+SUMMARY: {summary}

@@ -1,0 +1,37 @@
+.container { max-width: 1000px; margin: 30px auto; font-family: Arial; }
+.title { margin-bottom: 10px; }
+.tabs { display: flex; gap: 10px; margin-bottom: 20px; }
+.tabs button { padding: 10px 14px; border: 1px solid #ddd; background: #f7f7f7; cursor: pointer; border-radius: 8px; }
+.tabs button.active { background: #111; color: white; }
+
+.inputRow { display: flex; gap: 10px; }
+.inputRow input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
+.inputRow button { padding: 10px 14px; border-radius: 8px; border: none; background: #111; color: white; cursor: pointer; }
+
+.error { margin-top: 12px; color: red; }
+
+.card { margin-top: 20px; border: 1px solid #eee; border-radius: 14px; padding: 18px; background: white; }
+.small { color: #555; font-size: 13px; }
+.toggleRow { display: flex; gap: 10px; margin: 10px 0; }
+
+.qCard { border: 1px solid #eee; border-radius: 12px; padding: 12px; background: #fafafa; margin: 10px 0; }
+.qTop { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
+.opt { display: flex; gap: 8px; align-items: center; }
+
+.badge { padding: 3px 10px; border-radius: 999px; font-size: 12px; border: 1px solid #ddd; }
+.badge.easy { background: #e8fff1; }
+.badge.medium { background: #fff7e6; }
+.badge.hard { background: #ffecec; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.chip { padding: 6px 10px; background: #f1f1f1; border-radius: 999px; font-size: 13px; }
+
+.table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+.table th, .table td { border: 1px solid #eee; padding: 10px; text-align: left; }
+.urlCell { max-width: 420px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+.modalOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; }
+.modal { width: min(900px, 92vw); max-height: 90vh; overflow: auto; background: white; border-radius: 14px; padding: 14px; }
+.modalHeader { display: flex; justify-content: space-between; align-items: center; }
+.historyHeader { display: flex; justify-content: space-between; align-items: center; }

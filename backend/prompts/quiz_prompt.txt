@@ -1,0 +1,28 @@
+Create {n} clear, concise quiz questions (prefer multiple choice) based on the text below. Provide each question on its own line. If possible, include 3-4 choices separated by `|` and mark the correct answer after a tab as ANSWER: <answer>\n\n{text}
+Generate 5 to 10 multiple choice questions from the article text below.
+
+Return ONLY valid JSON in this format:
+{
+  "key_entities": {
+    "people": [],
+    "organizations": [],
+    "locations": []
+  },
+  "quiz": [
+    {
+      "question": "",
+      "options": ["", "", "", ""],
+      "answer": "",
+      "difficulty": "easy | medium | hard",
+      "explanation": ""
+    }
+  ]
+}
+
+Rules:
+- Use ONLY the article text
+- Exactly one correct option
+- No markdown, no extra text
+
+ARTICLE TEXT:
+{content}
